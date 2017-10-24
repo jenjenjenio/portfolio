@@ -1,0 +1,115 @@
+img:hover {
+  opacity: .5;
+  filter: alpha(opacity=100);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #BAD9B5;
+}
+
+li {
+  float: left;
+}
+
+.button-group {
+  float: right;
+  margin: 0px 10px;
+}
+
+#name {
+  display: block;
+  color: white;
+  padding: 14px 16px 14px 20px;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  margin-top: .25em;
+  padding: 7px 12px 7px 12px;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+}
+
+li a:hover:not(.active) {
+  background-color: #EEEBD3;
+  border: 2px solid #84A98C;
+}
+
+#page1 {
+  margin-top: -20px;
+  background-image: url("http://www.jennyhaggerty.com/me.jpg");
+  background-size: cover;
+  opacity: .5;
+  /* max-width: 100%; */
+  background-color: #cccccc;
+  color: #EEEBD3;
+  min-height: 600px; 
+}
+
+.row {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#page2 {
+  min-height: 400px;
+}
+
+#page3 {
+  min-height: 200px;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+
+h2 {
+  padding: 3em;
+  font-size: 2em;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #EEEBD3;
+}
+
+footer {
+  background-color: #BAD9B5;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  padding: 2px;
+}
+
+.btn-default {
+  text-align: center;
+  margin-top: .25em;
+  padding: 7px 12px 7px 12px;
+  text-decoration: none;
+  font-family: 'Raleway', san-serif;
+  font-size: 1.2em;
+}
+
+img {
+    width: 100%;
+}
+
+.contact-buttons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-default:hover:not(.active) {
+  background-color: white;
+  border: 2px solid #84A98C;
+}
