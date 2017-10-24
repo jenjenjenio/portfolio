@@ -49,10 +49,12 @@ li a:hover:not(.active) {
   margin-top: -20px;
   background-image: url("http://www.jennyhaggerty.com/me.jpg");
   background-size: cover;
-  opacity: .5;
-  /* max-width: 100%; */
-  background-color: #cccccc;
   background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: .5;
+  background-color: #cccccc;
   color: #EEEBD3;
   min-height: 600px; 
 }
