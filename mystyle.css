@@ -52,6 +52,7 @@ li a:hover:not(.active) {
   opacity: .5;
   /* max-width: 100%; */
   background-color: #cccccc;
+  background-repeat: no-repeat;
   color: #EEEBD3;
   min-height: 600px; 
 }
